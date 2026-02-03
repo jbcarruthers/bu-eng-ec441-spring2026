@@ -29,6 +29,17 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+### Lecture 03 - Physical Layer: Guided Media and Digital Signaling
+
+**Lecture Notes:**
+- [lecture_03_notes.pdf](lecture03/lecture_03_notes.pdf) - Detailed notes on physical transmission media and signaling
+- [lecture_03_slides.pdf](lecture03/lecture_03_slides.pdf) - Presentation slides
+
+**Python Scripts:**
+- [lecture_03_exploration.py](lecture03/lecture_03_exploration.py) - Interactive exploration of physical layer concepts
+
+---
+
 ## Using the Materials
 
 ### Python Scripts
@@ -53,4 +64,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** January 28, 2026
+**Last Updated:** February 03, 2026
