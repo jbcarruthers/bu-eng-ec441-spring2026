@@ -40,6 +40,14 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+## Tools and Setup Guides
+
+### Setting Up Your Environment
+
+- [Marimo Setup with uv](tools/marimo_setup_guide.md) - Complete guide for installing Marimo notebooks using uv
+
+---
+
 ## Using the Materials
 
 ### Python Scripts
