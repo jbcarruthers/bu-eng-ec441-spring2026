@@ -575,7 +575,7 @@ def __(mo, np, plt, sc_bandwidth, sc_snr_db):
 
     ax1_3d.set_xlabel('Bandwidth (MHz)', fontsize=10)
     ax1_3d.set_ylabel('SNR (dB)', fontsize=10)
-    ax1_3d.set_zlabel('Capacity (Mbps)', fontsize=10)
+    ax1_3d.set_zlabel('Capacity (Mb/s)', fontsize=10)
     ax1_3d.set_title('Shannon Capacity Surface', fontsize=12)
     fig_shannon.colorbar(surf, ax=ax1_3d, shrink=0.5)
 
@@ -584,10 +584,10 @@ def __(mo, np, plt, sc_bandwidth, sc_snr_db):
 
     cap_vs_bw = bw_range * np.log2(1 + snr_linear)
     ax2_2d.plot(bw_range, cap_vs_bw, 'b-', linewidth=2)
-    ax2_2d.plot(bw_mhz, capacity_mbps, 'ro', markersize=10, label=f'Current: {capacity_mbps:.1f} Mbps')
+    ax2_2d.plot(bw_mhz, capacity_mbps, 'ro', markersize=10, label=f'Current: {capacity_mbps:.1f} Mb/s')
     ax2_2d.grid(True, alpha=0.3)
     ax2_2d.set_xlabel('Bandwidth (MHz)', fontsize=10)
-    ax2_2d.set_ylabel('Capacity (Mbps)', fontsize=10)
+    ax2_2d.set_ylabel('Capacity (Mb/s)', fontsize=10)
     ax2_2d.set_title(f'Capacity vs. Bandwidth (SNR = {snr_db} dB)', fontsize=11)
     ax2_2d.legend()
 
@@ -597,10 +597,10 @@ def __(mo, np, plt, sc_bandwidth, sc_snr_db):
     snr_linear_range = 10**(snr_range / 10)
     cap_vs_snr = bw_mhz * np.log2(1 + snr_linear_range)
     ax3_2d.plot(snr_range, cap_vs_snr, 'g-', linewidth=2)
-    ax3_2d.plot(snr_db, capacity_mbps, 'ro', markersize=10, label=f'Current: {capacity_mbps:.1f} Mbps')
+    ax3_2d.plot(snr_db, capacity_mbps, 'ro', markersize=10, label=f'Current: {capacity_mbps:.1f} Mb/s')
     ax3_2d.grid(True, alpha=0.3)
     ax3_2d.set_xlabel('SNR (dB)', fontsize=10)
-    ax3_2d.set_ylabel('Capacity (Mbps)', fontsize=10)
+    ax3_2d.set_ylabel('Capacity (Mb/s)', fontsize=10)
     ax3_2d.set_title(f'Capacity vs. SNR (BW = {bw_mhz} MHz)', fontsize=11)
     ax3_2d.legend()
 
@@ -658,7 +658,7 @@ def __(bw_mhz, capacity_mbps, mo, snr_db, spectral_efficiency):
         - SNR: {snr_db} dB
 
         **Results:**
-        - Channel capacity: **{capacity_mbps:.2f} Mbps**
+        - Channel capacity: **{capacity_mbps:.2f} Mb/s**
         - Spectral efficiency: **{spectral_efficiency:.2f} bits/s/Hz**
 
         **Key insights:**
@@ -887,7 +887,7 @@ def __(mo):
         stop=100,
         step=1,
         value=10,
-        label="Symbol rate (Msps):",
+        label="Symbol rate (Msymb/s):",
         show_value=True
     )
 
@@ -932,7 +932,7 @@ def __(alpha_slider, mo, np, plt, pulse_type, symbol_rate_slider):
     # Get values
     p_type = pulse_type.value
     alpha = alpha_slider.value
-    symbol_rate = symbol_rate_slider.value  # Msps
+    symbol_rate = symbol_rate_slider.value  # Msymb/s
     T_symbol = 1 / symbol_rate  # microseconds
 
     # Time domain
@@ -1026,7 +1026,7 @@ def __(T_symbol, alpha, bandwidth, mo, p_type, symbol_rate):
 
         **Configuration:**
         - Pulse type: {p_type}
-        - Symbol rate: {symbol_rate} Msps (T = {T_symbol:.3f} μs)
+        - Symbol rate: {symbol_rate} Msymb/s (T = {T_symbol:.3f} μs)
         {f'- Roll-off factor: α = {alpha}' if p_type == 'Raised Cosine' else ''}
 
         **Bandwidth:**
@@ -1858,7 +1858,7 @@ def __(mo):
         stop=100,
         step=1,
         value=40,
-        label="Target data rate (Mbps):",
+        label="Target data rate (Mb/s):",
         show_value=True
     )
 
@@ -1981,7 +1981,7 @@ def __(
     ax_tr1.grid(True, alpha=0.3, which='both')
     ax_tr1.set_xlabel('Bandwidth (MHz)', fontsize=11)
     ax_tr1.set_ylabel('Required M', fontsize=11)
-    ax_tr1.set_title(f'Modulation Order vs. Bandwidth (R = {R_mbps} Mbps)', fontsize=12)
+    ax_tr1.set_title(f'Modulation Order vs. Bandwidth (R = {R_mbps} Mb/s)', fontsize=12)
     ax_tr1.legend()
 
     # Plot 2: Required Tx Power vs. Bandwidth
@@ -1998,7 +1998,7 @@ def __(
     ax_tr2.grid(True, alpha=0.3)
     ax_tr2.set_xlabel('Bandwidth (MHz)', fontsize=11)
     ax_tr2.set_ylabel('Required Tx Power (dBm)', fontsize=11)
-    ax_tr2.set_title(f'Transmit Power vs. Bandwidth (R = {R_mbps} Mbps, BER = {target_ber_str})', fontsize=12)
+    ax_tr2.set_title(f'Transmit Power vs. Bandwidth (R = {R_mbps} Mb/s, BER = {target_ber_str})', fontsize=12)
     ax_tr2.legend()
 
     plt.tight_layout()
@@ -2070,13 +2070,13 @@ def __(
         ### Power-Bandwidth Tradeoff Results
 
         **Requirements:**
-        - Data rate: {R_mbps} Mbps
+        - Data rate: {R_mbps} Mb/s
         - Bandwidth: {B_mhz} MHz
         - Target BER: {target_ber_str}
 
         **Solution:**
         - Required M: **{int(M_actual)}-PAM**
-        - Actual rate: {actual_rate:.1f} Mbps
+        - Actual rate: {actual_rate:.1f} Mb/s
         - Required Eb/N0: **{required_ebn0_db:.1f} dB**
         - Required Tx power: **{tx_power_dbm:.1f} dBm**
 
