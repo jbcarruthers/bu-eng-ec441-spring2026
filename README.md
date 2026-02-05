@@ -40,6 +40,23 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+### Lecture 04 - Wireless Communication and Networking
+
+**Lecture Notes:**
+- [lecture_04_notes.pdf](lecture04/lecture_04_notes.pdf) - Detailed notes on wireless communication principles
+- [lecture_04_slides.pdf](lecture04/lecture_04_slides.pdf) - Presentation slides
+
+**Python Scripts:**
+- [lecture_04_exploration.py](lecture04/lecture_04_exploration.py) - Interactive exploration of wireless concepts
+- [plot_spectrum_allocation.py](lecture04/plot_spectrum_allocation.py) - Visualize frequency spectrum allocation
+- [plot_path_loss.py](lecture04/plot_path_loss.py) - Path loss model comparisons
+- [plot_link_budget.py](lecture04/plot_link_budget.py) - Link budget analysis tool
+- [plot_qam_constellations.py](lecture04/plot_qam_constellations.py) - QAM modulation visualization
+- [plot_cellular_reuse.py](lecture04/plot_cellular_reuse.py) - Cellular frequency reuse patterns
+- [plot_wifi_rates.py](lecture04/plot_wifi_rates.py) - WiFi data rate analysis
+
+---
+
 ## Tools and Setup Guides
 
 ### Setting Up Your Environment
@@ -72,4 +89,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** February 03, 2026
+**Last Updated:** February 05, 2026
