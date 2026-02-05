@@ -61,6 +61,7 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ### Setting Up Your Environment
 
+- [Git Setup Guide](tools/git_setup_guide.md) - Install Git and keep your course materials up-to-date
 - [Marimo Setup with uv](tools/marimo_setup_guide.md) - Complete guide for installing Marimo notebooks using uv
 
 ---
