@@ -57,6 +57,30 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+### Lecture 05 - Error Control Coding
+
+**Lecture Notes:**
+- [lecture_05_notes.pdf](lecture05/lecture_05_notes.pdf) - Detailed notes on block codes, Hamming distance, and error control
+- [lecture_05_slides.pdf](lecture05/lecture_05_slides.pdf) - Presentation slides
+
+**Python Scripts:**
+- [lecture_05_06_exploration.py](lecture05/lecture_05_06_exploration.py) - Interactive exploration of error control coding and CRC (covers Lectures 05 & 06)
+- [plot_hamming_distance.py](lecture05/plot_hamming_distance.py) - Hamming distance and error control sphere visualization
+
+---
+
+### Lecture 06 - CRC and Error Detection
+
+**Lecture Notes:**
+- [lecture_06_notes.pdf](lecture06/lecture_06_notes.pdf) - Detailed notes on CRC encoding, decoding, and performance
+- [lecture_06_slides.pdf](lecture06/lecture_06_slides.pdf) - Presentation slides
+
+**Python Scripts:**
+- [plot_ber_comparison.py](lecture06/plot_ber_comparison.py) - BER comparison of error control methods
+- [plot_crc_performance.py](lecture06/plot_crc_performance.py) - CRC error detection capability visualization
+
+---
+
 ## Tools and Setup Guides
 
 ### Setting Up Your Environment
@@ -90,4 +114,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** February 05, 2026
+**Last Updated:** February 10, 2026
