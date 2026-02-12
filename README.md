@@ -81,6 +81,16 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+## Assignments
+
+- [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
+- [assignments.html](assignments.html) - Assignment requirements and expectations (HTML)
+- [assignments.pdf](assignments.pdf) - Assignment requirements and expectations (PDF)
+
+*This is a draft -- feedback welcome!*
+
+---
+
 ## Tools and Setup Guides
 
 ### Setting Up Your Environment
@@ -114,4 +124,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** February 10, 2026
+**Last Updated:** February 12, 2026
