@@ -81,6 +81,19 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+### Lecture 07 - Multiple Access Protocols
+
+**Lecture Notes:**
+- [lecture_07_notes.pdf](lecture07/lecture_07_notes.pdf) - Detailed notes on MAC protocols: channel partitioning, ALOHA, CSMA/CD, and Ethernet
+- [lecture_07_slides.pdf](lecture07/lecture_07_slides.pdf) - Presentation slides
+
+**Python Scripts:**
+- [lecture_07_exploration.py](lecture07/lecture_07_exploration.py) - Interactive exploration of MAC protocol concepts
+- [plot_csma_collision.py](lecture07/plot_csma_collision.py) - CSMA collision space-time diagram visualization
+- [plot_hidden_terminal.py](lecture07/plot_hidden_terminal.py) - Hidden terminal problem visualization
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
@@ -124,4 +137,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** February 12, 2026
+**Last Updated:** February 19, 2026
