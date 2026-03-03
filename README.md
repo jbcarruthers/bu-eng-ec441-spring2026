@@ -110,6 +110,7 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 - [review_slides.pdf](midterm1/review_slides.pdf) - One-slide-per-topic summary of all exam topics
 - [review_problems.pdf](midterm1/review_problems.pdf) - Practice problems covering all topics
 - [review_problems_solutions.pdf](midterm1/review_problems_solutions.pdf) - Worked solutions to the practice problems
+- [reference_sheet.pdf](midterm1/reference_sheet.pdf) - Instructor-provided reference sheet (provided during the exam)
 
 ---
 
