@@ -103,6 +103,16 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+## Midterm 1 Review Materials
+
+The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with an instructor-provided reference sheet.
+
+- [review_slides.pdf](midterm1/review_slides.pdf) - One-slide-per-topic summary of all exam topics
+- [review_problems.pdf](midterm1/review_problems.pdf) - Practice problems covering all topics
+- [review_problems_solutions.pdf](midterm1/review_problems_solutions.pdf) - Worked solutions to the practice problems
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
@@ -146,4 +156,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** February 25, 2026
+**Last Updated:** March 3, 2026
