@@ -103,6 +103,17 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+### Lecture 13 - The Network Layer: Forwarding and Routing
+
+**Lecture Notes:**
+- [lecture_13_notes.pdf](lecture13/lecture_13_notes.pdf) - Detailed notes on the network layer, IP addressing, forwarding tables, longest prefix match, and routing overview
+- [lecture_13_slides.pdf](lecture13/lecture_13_slides.pdf) - Presentation slides
+
+**Python Scripts:**
+- [lecture_13_exploration.py](lecture13/lecture_13_exploration.py) - Interactive exploration of network layer concepts: the narrow waist of the Internet, routing table inspection, longest prefix match visualizer, traceroute explorer, and TTL countdown simulation
+
+---
+
 ## Midterm 1 Review Materials
 
 The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with an instructor-provided reference sheet.
