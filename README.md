@@ -111,6 +111,8 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 - [review_problems.pdf](midterm1/review_problems.pdf) - Practice problems covering all topics
 - [review_problems_solutions.pdf](midterm1/review_problems_solutions.pdf) - Worked solutions to the practice problems
 - [reference_sheet.pdf](midterm1/reference_sheet.pdf) - Instructor-provided reference sheet (provided during the exam)
+- [midterm_one_exam.pdf](midterm1/midterm_one_exam.pdf) - Midterm 1 exam
+- [midterm_one_solutions.pdf](midterm1/midterm_one_solutions.pdf) - Midterm 1 solutions
 
 ---
 
@@ -157,4 +159,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** March 3, 2026
+**Last Updated:** March 17, 2026
