@@ -113,6 +113,7 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 - [reference_sheet.pdf](midterm1/reference_sheet.pdf) - Instructor-provided reference sheet (provided during the exam)
 - [midterm_one_exam.pdf](midterm1/midterm_one_exam.pdf) - Midterm 1 exam
 - [midterm_one_solutions.pdf](midterm1/midterm_one_solutions.pdf) - Midterm 1 solutions
+- [midterm_one_histogram.png](midterm1/midterm_one_histogram.png) - Midterm 1 score distribution and per-question statistics
 
 ---
 
