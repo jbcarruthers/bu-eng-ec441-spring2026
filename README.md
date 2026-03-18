@@ -103,6 +103,18 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+### Lecture 14 — IP Addressing, CIDR, and Subnetting
+
+**Lecture Notes:**
+- [lecture_14_slides.pdf](lecture14/lecture_14_slides.pdf) — Presentation slides
+- [lecture_14_notes.pdf](lecture14/lecture_14_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [lecture_14_exploration.py](lecture14/lecture_14_exploration.py) — Interactive Marimo notebook (run with `marimo run lecture_14_exploration.py`)
+- [demo_ipaddress_l14.py](lecture14/demo_ipaddress_l14.py) — Standalone script: subnet arithmetic, membership checks, special address classification (run with `python demo_ipaddress_l14.py`)
+
+---
+
 ### Lecture 13 - The Network Layer: Forwarding and Routing
 
 **Lecture Notes:**
@@ -171,4 +183,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** March 17, 2026
+**Last Updated:** March 18, 2026
