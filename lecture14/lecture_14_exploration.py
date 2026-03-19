@@ -985,7 +985,7 @@ def _(mo):
     }
     whois_dropdown = mo.ui.dropdown(
         options=_presets,
-        value="20.0.0.0",
+        value="20.0.0.0  — Microsoft",
         label="Choose an address:",
     )
     whois_btn = mo.ui.run_button(label="Look up")
