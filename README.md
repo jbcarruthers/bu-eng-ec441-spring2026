@@ -103,6 +103,8 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+## Midterm 2 Material
+
 ### Lecture 13 - The Network Layer: Forwarding and Routing
 
 **Lecture Notes:**
