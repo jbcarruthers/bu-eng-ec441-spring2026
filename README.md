@@ -103,6 +103,20 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 
 ---
 
+## Midterm 1 Review Materials
+
+The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with an instructor-provided reference sheet.
+
+- [review_slides.pdf](midterm1/review_slides.pdf) - One-slide-per-topic summary of all exam topics
+- [review_problems.pdf](midterm1/review_problems.pdf) - Practice problems covering all topics
+- [review_problems_solutions.pdf](midterm1/review_problems_solutions.pdf) - Worked solutions to the practice problems
+- [reference_sheet.pdf](midterm1/reference_sheet.pdf) - Instructor-provided reference sheet (provided during the exam)
+- [midterm_one_exam.pdf](midterm1/midterm_one_exam.pdf) - Midterm 1 exam
+- [midterm_one_solutions.pdf](midterm1/midterm_one_solutions.pdf) - Midterm 1 solutions
+- [midterm_one_histogram.png](midterm1/midterm_one_histogram.png) - Midterm 1 score distribution and per-question statistics
+
+---
+
 ## Midterm 2 Material
 
 ### Lecture 13 - The Network Layer: Forwarding and Routing
@@ -125,20 +139,6 @@ This repository contains lecture notes, slides, and Python scripts for EC 441.
 **Python Scripts:**
 - [lecture_14_exploration.py](lecture14/lecture_14_exploration.py) — Interactive Marimo notebook (run with `marimo run lecture_14_exploration.py`)
 - [demo_ipaddress_l14.py](lecture14/demo_ipaddress_l14.py) — Standalone script: subnet arithmetic, membership checks, special address classification (run with `python demo_ipaddress_l14.py`)
-
----
-
-## Midterm 1 Review Materials
-
-The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with an instructor-provided reference sheet.
-
-- [review_slides.pdf](midterm1/review_slides.pdf) - One-slide-per-topic summary of all exam topics
-- [review_problems.pdf](midterm1/review_problems.pdf) - Practice problems covering all topics
-- [review_problems_solutions.pdf](midterm1/review_problems_solutions.pdf) - Worked solutions to the practice problems
-- [reference_sheet.pdf](midterm1/reference_sheet.pdf) - Instructor-provided reference sheet (provided during the exam)
-- [midterm_one_exam.pdf](midterm1/midterm_one_exam.pdf) - Midterm 1 exam
-- [midterm_one_solutions.pdf](midterm1/midterm_one_solutions.pdf) - Midterm 1 solutions
-- [midterm_one_histogram.png](midterm1/midterm_one_histogram.png) - Midterm 1 score distribution and per-question statistics
 
 ---
 
