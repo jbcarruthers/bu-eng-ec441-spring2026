@@ -142,6 +142,18 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+### Lecture 15 — Routing: Link State and Dijkstra's Algorithm
+
+**Lecture Notes:**
+- [lecture_15_slides.pdf](lecture15/lecture_15_slides.pdf) — Presentation slides
+- [lecture_15_notes.pdf](lecture15/lecture_15_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [lecture_15_exploration.py](lecture15/lecture_15_exploration.py) — Interactive Marimo notebook: graph builder, Dijkstra step-by-step visualizer, SPT visualization, link failure simulator, OSPF cost calculator (run with `marimo run lecture_15_exploration.py`)
+- [demo_dijkstra_l15.py](lecture15/demo_dijkstra_l15.py) — Standalone Dijkstra implementation with step-by-step trace, forwarding table derivation, and link-failure demo (run with `python demo_dijkstra_l15.py`)
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
