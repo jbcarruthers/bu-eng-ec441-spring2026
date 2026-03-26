@@ -154,6 +154,18 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+### Lecture 16 — Routing: Distance Vector, Bellman-Ford, and BGP Introduction
+
+**Lecture Notes:**
+- [lecture_16_slides.pdf](lecture16/lecture_16_slides.pdf) — Presentation slides
+- [lecture_16_notes.pdf](lecture16/lecture_16_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [lecture_16_exploration.py](lecture16/lecture_16_exploration.py) — Interactive Marimo notebook: DV convergence visualizer, count-to-infinity simulator, split horizon/poisoned reverse comparison, LS vs. DV side-by-side (run with `marimo run lecture_16_exploration.py`)
+- [demo_bellmanford_l16.py](lecture16/demo_bellmanford_l16.py) — Standalone distance-vector implementation with round-by-round convergence trace, count-to-infinity demo, and split horizon comparison (run with `python demo_bellmanford_l16.py`)
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
