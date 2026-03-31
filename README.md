@@ -166,6 +166,18 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+### Lecture 17 — IPv4, IPv6, NAT, and ICMP
+
+**Lecture Notes:**
+- [lecture_17_slides.pdf](lecture17/lecture_17_slides.pdf) — Presentation slides
+- [lecture_17_notes.pdf](lecture17/lecture_17_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [lecture_17_exploration.py](lecture17/lecture_17_exploration.py) — Interactive Marimo notebook: IPv4 header explorer, ICMP message type reference, fragmentation calculator, NAT translation simulator, IPv6 address tool, IPv4 vs. IPv6 comparison (run with `marimo run lecture_17_exploration.py`)
+- [demo_protocols_l17.py](lecture17/demo_protocols_l17.py) — Standalone script: IPv4/IPv6 header parsing, NAT translation demo, ICMP message types (run with `python demo_protocols_l17.py`)
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
@@ -209,4 +221,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** March 18, 2026
+**Last Updated:** March 31, 2026
