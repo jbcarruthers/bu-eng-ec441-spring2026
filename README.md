@@ -176,6 +176,16 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 - [lecture_17_exploration.py](lecture17/lecture_17_exploration.py) — Interactive Marimo notebook: IPv4 header explorer, ICMP message type reference, fragmentation calculator, NAT translation simulator, IPv6 address tool, IPv4 vs. IPv6 comparison (run with `marimo run lecture_17_exploration.py`)
 - [demo_protocols_l17.py](lecture17/demo_protocols_l17.py) — Standalone script: IPv4/IPv6 header parsing, NAT translation demo, ICMP message types (run with `python demo_protocols_l17.py`)
 
+### Lecture 18 — Transport Layer, UDP, and Reliable Data Transfer
+
+**Lecture Notes:**
+- [lecture_18_slides.pdf](lecture18/lecture_18_slides.pdf) — Presentation slides
+- [lecture_18_notes.pdf](lecture18/lecture_18_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [lecture_18_exploration.py](lecture18/lecture_18_exploration.py) — Interactive Marimo notebook: transport layer multiplexing, UDP segment anatomy, stop-and-wait vs. pipelined throughput, sliding window visualizer (run with `marimo run lecture_18_exploration.py`)
+- [demo_rdt_throughput_l18.py](lecture18/demo_rdt_throughput_l18.py) — Standalone script: RDT protocol throughput comparison, stop-and-wait vs. Go-Back-N vs. Selective Repeat (run with `python demo_rdt_throughput_l18.py`)
+
 ---
 
 ## Assignments
@@ -221,4 +231,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** March 31, 2026
+**Last Updated:** April 2, 2026
