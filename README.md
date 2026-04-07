@@ -188,6 +188,30 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+### Lecture 19 — TCP Part 1: Connections, Sequencing, and Flow Control
+
+**Lecture Notes:**
+- [lecture_19_slides.pdf](lecture19/lecture_19_slides.pdf) — Presentation slides
+- [lecture_19_notes.pdf](lecture19/lecture_19_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [lecture_19_exploration.py](lecture19/lecture_19_exploration.py) — Interactive Marimo notebook: TCP 3-way handshake, RTT estimation (EWMA/RTTVAR/RTO), sequence/ACK number mechanics, flow control and receive window (run with `marimo run lecture_19_exploration.py`)
+- [demo_tcp_l19.py](lecture19/demo_tcp_l19.py) — Standalone script: TCP RTT estimator (RFC 6298), 3-way handshake ISN arithmetic, sequence/ACK number trace (run with `python demo_tcp_l19.py`)
+
+---
+
+### Lecture 20 — TCP Part 2: Congestion Control and the Modern Picture
+
+**Lecture Notes:**
+- [lecture_20_slides.pdf](lecture20/lecture_20_slides.pdf) — Presentation slides
+- [lecture_20_notes.pdf](lecture20/lecture_20_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [lecture_20_exploration.py](lecture20/lecture_20_exploration.py) — Interactive Marimo notebook: TCP congestion control simulator (cwnd/ssthresh trace through slow start, congestion avoidance, fast recovery, timeout), TCP throughput formula explorer (run with `marimo run lecture_20_exploration.py`)
+- [demo_tcp_congestion_l20.py](lecture20/demo_tcp_congestion_l20.py) — Standalone script: TCP congestion control simulator, cwnd/ssthresh evolution through slow start, congestion avoidance, fast recovery, and timeout (run with `python demo_tcp_congestion_l20.py`)
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
@@ -231,4 +255,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** April 2, 2026
+**Last Updated:** April 7, 2026
