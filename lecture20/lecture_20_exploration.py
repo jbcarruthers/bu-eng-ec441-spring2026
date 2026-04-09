@@ -49,27 +49,27 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    _ssthresh_init = mo.ui.slider(4, 24, value=8, step=1, label="Initial ssthresh (MSS)")
-    _n_rounds = mo.ui.slider(20, 60, value=40, step=5, label="Simulation rounds")
-    _loss_scenario = mo.ui.dropdown(
+    ssthresh_init = mo.ui.slider(4, 24, value=8, step=1, label="Initial ssthresh (MSS)")
+    n_rounds = mo.ui.slider(20, 60, value=40, step=5, label="Simulation rounds")
+    loss_scenario = mo.ui.dropdown(
         options={
             "3 dup ACKs at round 11": "dup11",
             "Timeout at round 11": "timeout11",
             "3 dup ACKs at round 11, then timeout at round 22": "dup11_timeout22",
             "No loss (pure slow start + CA)": "noloss",
         },
-        value="dup11",
+        value="3 dup ACKs at round 11",
         label="Loss scenario",
     )
-    mo.vstack([_ssthresh_init, _n_rounds, _loss_scenario])
-    return _loss_scenario, _n_rounds, _ssthresh_init
+    mo.vstack([ssthresh_init, n_rounds, loss_scenario])
+    return loss_scenario, n_rounds, ssthresh_init
 
 
 @app.cell
-def _(GridSpec, _loss_scenario, _n_rounds, _ssthresh_init, mo, mpatches, plt):
-    _scenario = _loss_scenario.value
-    _n = _n_rounds.value
-    _ssthresh_start = _ssthresh_init.value
+def _(GridSpec, loss_scenario, n_rounds, ssthresh_init, mo, mpatches, plt):
+    _scenario = loss_scenario.value
+    _n = n_rounds.value
+    _ssthresh_start = ssthresh_init.value
 
     # --- Simulation ---
     _cwnd = [0.0] * (_n + 1)
@@ -208,18 +208,18 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    _mss_bytes = mo.ui.slider(512, 9000, value=1460, step=128, label="MSS (bytes)")
-    _rtt_ms = mo.ui.slider(1, 500, value=100, step=1, label="RTT (ms)")
-    _target_bw_mbps = mo.ui.slider(10, 10000, value=1000, step=10, label="Target BW (Mb/s)")
-    mo.vstack([_mss_bytes, _rtt_ms, _target_bw_mbps])
-    return _mss_bytes, _rtt_ms, _target_bw_mbps
+    mss_bytes = mo.ui.slider(512, 9000, value=1460, step=128, label="MSS (bytes)")
+    rtt_ms = mo.ui.slider(1, 500, value=100, step=1, label="RTT (ms)")
+    target_bw_mbps = mo.ui.slider(10, 10000, value=1000, step=10, label="Target BW (Mb/s)")
+    mo.vstack([mss_bytes, rtt_ms, target_bw_mbps])
+    return mss_bytes, rtt_ms, target_bw_mbps
 
 
 @app.cell
-def _(_mss_bytes, _rtt_ms, _target_bw_mbps, mo, np, plt):
-    _mss = _mss_bytes.value
-    _rtt = _rtt_ms.value
-    _target = _target_bw_mbps.value
+def _(mss_bytes, rtt_ms, target_bw_mbps, mo, np, plt):
+    _mss = mss_bytes.value
+    _rtt = rtt_ms.value
+    _target = target_bw_mbps.value
 
     _p_range = np.logspace(-6, -1, 400)
     _rtt_range = np.linspace(1, 500, 400)  # ms
@@ -313,22 +313,22 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    _capacity = mo.ui.slider(10, 100, value=100, step=10, label="Link capacity C (Mb/s)")
-    _x1_init = mo.ui.slider(1, 80, value=10, step=1, label="Flow 1 initial rate (Mb/s)")
-    _x2_init = mo.ui.slider(1, 80, value=70, step=1, label="Flow 2 initial rate (Mb/s)")
-    _delta = mo.ui.slider(1, 10, value=5, step=1, label="Additive increase Δ (Mb/s)")
-    _n_steps = mo.ui.slider(10, 100, value=40, step=5, label="Number of AIMD steps")
-    mo.vstack([_capacity, mo.hstack([_x1_init, _x2_init]), mo.hstack([_delta, _n_steps])])
-    return _capacity, _delta, _n_steps, _x1_init, _x2_init
+    capacity = mo.ui.slider(10, 100, value=100, step=10, label="Link capacity C (Mb/s)")
+    x1_init = mo.ui.slider(1, 80, value=10, step=1, label="Flow 1 initial rate (Mb/s)")
+    x2_init = mo.ui.slider(1, 80, value=70, step=1, label="Flow 2 initial rate (Mb/s)")
+    delta = mo.ui.slider(1, 10, value=5, step=1, label="Additive increase Δ (Mb/s)")
+    n_steps = mo.ui.slider(10, 100, value=40, step=5, label="Number of AIMD steps")
+    mo.vstack([capacity, mo.hstack([x1_init, x2_init]), mo.hstack([delta, n_steps])])
+    return capacity, delta, n_steps, x1_init, x2_init
 
 
 @app.cell
-def _(_capacity, _delta, _n_steps, _x1_init, _x2_init, mo, np, plt):
-    _C = _capacity.value
-    _x1 = float(_x1_init.value)
-    _x2 = float(_x2_init.value)
-    _d = float(_delta.value)
-    _n = _n_steps.value
+def _(capacity, delta, n_steps, x1_init, x2_init, mo, np, plt):
+    _C = capacity.value
+    _x1 = float(x1_init.value)
+    _x2 = float(x2_init.value)
+    _d = float(delta.value)
+    _n = n_steps.value
 
     # Simulate AIMD
     _traj_x1 = [_x1]
