@@ -212,6 +212,20 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+### Lecture 21 — See the Network: CLI Tools, Wireshark, and pyshark
+
+**Lecture Notes:**
+- [lecture_21_slides.pdf](lecture21/lecture_21_slides.pdf) — Presentation slides
+- [lecture_21_notes.pdf](lecture21/lecture_21_notes.pdf) — Detailed notes
+
+**Python Scripts:**
+- [demo_pyshark_iterate_l21.py](lecture21/demo_pyshark_iterate_l21.py) — Load a pcap and print the highest-layer protocol and frame length for every packet (run with `python demo_pyshark_iterate_l21.py capture.pcap`)
+- [demo_pyshark_inspect_l21.py](lecture21/demo_pyshark_inspect_l21.py) — Inspect a single packet: layers, source IP, TTL, transport protocol (run with `python demo_pyshark_inspect_l21.py capture.pcap`)
+- [demo_pyshark_dns_l21.py](lecture21/demo_pyshark_dns_l21.py) — Extract and print all unique DNS query names from a capture (run with `python demo_pyshark_dns_l21.py capture.pcap`)
+- [demo_pyshark_rtt_l21.py](lecture21/demo_pyshark_rtt_l21.py) — Plot TCP ACK RTT over time from a capture, saves `rtt_plot.png` (run with `python demo_pyshark_rtt_l21.py capture.pcap`)
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
@@ -255,4 +269,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** April 7, 2026
+**Last Updated:** April 14, 2026
