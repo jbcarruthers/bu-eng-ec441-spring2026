@@ -212,6 +212,11 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+## Post-Midterm 2: Project and Supplemental Material
+
+> **Note:** Lectures 21 and beyond are not covered on Midterm 2.
+> These materials support the course project and broaden your practical skills.
+
 ### Lecture 21 — See the Network: CLI Tools, Wireshark, and pyshark
 
 **Lecture Notes:**
