@@ -246,18 +246,3 @@ see `notes/topic11_tools/vm_setup_howto.md`.
 | `curl`, `wget` | HTTP clients | `curl`, `wget` |
 | marimo | Notebooks (optional) | `pip install marimo` |
 
----
-
-## Next Steps
-
-- [ ] Write `notes/topic11_tools/vm_setup_howto.md` — VirtualBox + Ubuntu install
-      and full tool configuration; instructor follows along to verify
-- [ ] L21 master outline (`lecture_21_tools1_complete.md`)
-- [ ] L21 slides (`lecture_21_slides.tex`)
-- [ ] L22 master outline (`lecture_22_tools2_complete.md`)
-- [ ] L22 slides (`lecture_22_slides.tex`)
-- [ ] Write `notes/topic12_applications/lecture_23_applications_plan.md`
-- [ ] L23 master outline + slides
-- [ ] Write `notes/topic13_security/lecture_24_security_plan.md`
-- [ ] L24 master outline + slides
-- [ ] Define project assignment (issue ~Apr 17)
