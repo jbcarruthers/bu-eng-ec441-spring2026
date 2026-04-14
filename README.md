@@ -248,6 +248,16 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 - [Git Setup Guide](tools/git_setup_guide.md) - Install Git and keep your course materials up-to-date
 - [Marimo Setup with uv](tools/marimo_setup_guide.md) - Complete guide for installing Marimo notebooks using uv
 
+### Linux VM (Required for L21–L22)
+
+- [VM Setup Guide](tools/vm_setup_howto.md) - Install Multipass and provision the ec441 Ubuntu VM (macOS, Windows, Linux)
+- [vm_setup_howto.pdf](tools/vm_setup_howto.pdf) - PDF version of the VM setup guide
+- [ec441_setup.yaml](tools/ec441_setup.yaml) - Cloud-init provisioning script (download this before running `multipass launch`)
+
+### Course Plan
+
+- [end_of_semester_plan.md](end_of_semester_plan.md) - Overview of Lectures 21–25: themes, tools, and what to expect
+
 ---
 
 ## Using the Materials
