@@ -212,6 +212,29 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+## Midterm 2 Practice Exams
+
+The following are practice exams from previous semesters. Topics vary somewhat year to year, but all cover the network layer and transport layer/TCP. Use these to practice problem-solving — the format is similar to this semester's exam (closed book, no calculator, 90 minutes).
+
+**Spring 2022**
+
+- [practice_exam_spring2022.pdf](midterm2/practice_exam_spring2022.pdf) — Spring 2022 Midterm 2
+- [practice_exam_spring2022_solutions.pdf](midterm2/practice_exam_spring2022_solutions.pdf) — Solutions
+
+**Spring 2023**
+
+- [practice_exam_spring2023.pdf](midterm2/practice_exam_spring2023.pdf) — Spring 2023 Midterm 2
+- [practice_exam_spring2023_solutions.pdf](midterm2/practice_exam_spring2023_solutions.pdf) — Solutions
+
+**Spring 2025**
+
+- [practice_exam_spring2025.pdf](midterm2/practice_exam_spring2025.pdf) — Spring 2025 Midterm 2
+- [practice_exam_spring2025_solutions.pdf](midterm2/practice_exam_spring2025_solutions.pdf) — Solutions
+
+> **Spring 2025 exam format (historical reference):** 90 minutes, closed book, no calculator. Teams of two allowed (different partner than Midterm 1), one double-sided page of notes per team. Four questions of 25 pts each: subnets/CIDR, routing (distance vector + link state), TCP/tshark trace analysis, and error control coding. *Note: the Spring 2025 exam included a dedicated error coding question; this semester's MT2 does not, though minimum-distance ideas arise in the context of checksums.*
+
+---
+
 ## Post-Midterm 2: Project and Supplemental Material
 
 > **Note:** Lectures 21 and beyond are not covered on Midterm 2.
@@ -284,4 +307,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** April 14, 2026
+**Last Updated:** April 15, 2026
