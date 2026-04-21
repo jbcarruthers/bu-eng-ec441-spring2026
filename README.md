@@ -212,6 +212,12 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 
 ---
 
+## Spring 2026 Midterm 2
+
+- [midterm_two_exam_gradescope_solutions.pdf](midterm2/midterm_two_exam_gradescope_solutions.pdf) — Worked solutions to this semester's Midterm 2 (Gradescope version)
+
+---
+
 ## Midterm 2 Practice Exams
 
 The following are practice exams from previous semesters. Topics vary somewhat year to year, but all cover the network layer and transport layer/TCP. Use these to practice problem-solving — the format is similar to this semester's exam (closed book, no calculator, 90 minutes).
@@ -366,4 +372,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** April 21, 2026
+**Last Updated:** April 21, 2026 (MT2 solutions posted)
