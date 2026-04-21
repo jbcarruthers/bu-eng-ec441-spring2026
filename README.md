@@ -254,6 +254,65 @@ The following are practice exams from previous semesters. Topics vary somewhat y
 
 ---
 
+### Lecture 22 — Touch the Network: Scapy, Mininet, and Sockets
+
+**Lecture Notes:**
+- [lecture_22_slides.pdf](lecture22/lecture_22_slides.pdf) — Presentation slides
+- [lecture_22_notes.pdf](lecture22/lecture_22_notes.pdf) — Detailed notes
+
+**Python Scripts (Scapy — raw sockets, run as `sudo python3 ...` in the ec441 VM):**
+- [demo_scapy_build_l22.py](lecture22/demo_scapy_build_l22.py) — Build a packet byte-by-byte and inspect IP header defaults
+- [demo_scapy_icmp_l22.py](lecture22/demo_scapy_icmp_l22.py) — Craft and send an ICMP Echo Request; inspect the reply
+- [demo_scapy_syn_l22.py](lecture22/demo_scapy_syn_l22.py) — TCP SYN probe against open and closed ports on scanme.nmap.org
+- [demo_scapy_traceroute_l22.py](lecture22/demo_scapy_traceroute_l22.py) — Minimal traceroute via TTL-stepped ICMP (run with an optional destination argument)
+- [demo_scapy_sniff_l22.py](lecture22/demo_scapy_sniff_l22.py) — Scapy sniff mode; cross-check with pyshark
+
+**Python Scripts (Mininet — also requires Linux + sudo):**
+- [demo_mininet_bottleneck_l22.py](lecture22/demo_mininet_bottleneck_l22.py) — Two hosts across a 10 Mb/s / 20 ms / 1% loss bottleneck; iperf3 + `ss -tipm`
+
+**Python Scripts (sockets — any Linux/macOS):**
+- [demo_tcp_echo_server_l22.py](lecture22/demo_tcp_echo_server_l22.py) — Minimal TCP echo server
+- [demo_tcp_echo_client_l22.py](lecture22/demo_tcp_echo_client_l22.py) — Minimal TCP echo client
+- [demo_udp_echo_server_l22.py](lecture22/demo_udp_echo_server_l22.py) — Minimal UDP echo server
+- [demo_udp_echo_client_l22.py](lecture22/demo_udp_echo_client_l22.py) — Minimal UDP echo client
+
+---
+
+### Lecture 23 — Application Layer: Design Patterns, DNS, HTTP, and QUIC
+
+**Lecture Notes:**
+- [lecture_23_slides.pdf](lecture23/lecture_23_slides.pdf) — Presentation slides
+- [lecture_23_notes.pdf](lecture23/lecture_23_notes.pdf) — Detailed notes
+
+**Demo Scripts:**
+- [demo_dig_trace_l23.sh](lecture23/demo_dig_trace_l23.sh) — Walk through DNS resolution with `dig`: record types, `+trace`, reverse lookup, DoH (run with `bash demo_dig_trace_l23.sh`)
+- [demo_curl_versions_l23.sh](lecture23/demo_curl_versions_l23.sh) — HTTP/1.1 vs HTTP/2 vs HTTP/3 with `curl -v` (run with `bash demo_curl_versions_l23.sh`; needs a curl with HTTP/3 support, e.g. `brew install curl`)
+- [demo_http_server_l23.py](lecture23/demo_http_server_l23.py) — Trivial HTTP/1.1 server using Python's stdlib `http.server` — shows that HTTP is buildable on the socket API from L22 (run with `python3 demo_http_server_l23.py`)
+
+---
+
+### Lecture 24 — Cryptography and Security
+
+**Lecture Notes:**
+- [lecture_24_slides.pdf](lecture24/lecture_24_slides.pdf) — Presentation slides
+- [lecture_24_notes.pdf](lecture24/lecture_24_notes.pdf) — Detailed notes
+
+**Demo Scripts:**
+- [demo_rsa_math_l24.py](lecture24/demo_rsa_math_l24.py) — Toy RSA (p=11, q=13, e=7) end-to-end: key generation, encrypt/decrypt, sign/verify — stdlib only (run with `python3 demo_rsa_math_l24.py`)
+- [demo_hash_l24.py](lecture24/demo_hash_l24.py) — SHA-256 properties: fixed output size, avalanche effect, a toy commitment scheme — stdlib only (run with `python3 demo_hash_l24.py`)
+- [demo_aes_gcm_l24.py](lecture24/demo_aes_gcm_l24.py) — AES-GCM authenticated encryption: round-trip, tampered ciphertext and tampered AAD both fail (requires `pip install cryptography`)
+- [demo_openssl_client_l24.sh](lecture24/demo_openssl_client_l24.sh) — Inspect real TLS cert chains with `openssl s_client` (run with `bash demo_openssl_client_l24.sh [host] [port]`)
+
+---
+
+## Final Project
+
+Demo day is **Thursday, April 30, 2026**. See the assignment for artifact types, format, partner / team rules, and alternate dates for seniors.
+
+- [final_project.md](final_project.md) — Final project assignment
+
+---
+
 ## Assignments
 
 - [assignments.md](assignments.md) - Assignment requirements and expectations (Markdown)
@@ -307,4 +366,4 @@ All Python scripts are interactive [Marimo](https://marimo.io/) notebooks. To ru
 
 EC 441 provides a comprehensive introduction to computer networking, covering fundamental concepts, protocols, and practical applications.
 
-**Last Updated:** April 15, 2026
+**Last Updated:** April 21, 2026
