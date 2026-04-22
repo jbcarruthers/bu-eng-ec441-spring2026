@@ -215,8 +215,10 @@ The exam covers Lectures 1--8 (through Ethernet/802.3). Format: closed book with
 ## Spring 2026 Midterm 2
 
 - [midterm_two_exam_gradescope_solutions.pdf](midterm2/midterm_two_exam_gradescope_solutions.pdf) — Worked solutions to this semester's Midterm 2 (Gradescope version)
-- [midterm_two_histogram.png](midterm2/midterm_two_histogram.png) — Score distribution
-- [midterm_two_per_question.png](midterm2/midterm_two_per_question.png) — Per-question statistics
+
+![Score distribution](midterm2/midterm_two_histogram.png)
+
+![Per-question statistics](midterm2/midterm_two_per_question.png)
 
 ---
 
