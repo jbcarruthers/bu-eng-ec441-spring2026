@@ -6,6 +6,19 @@
 
 ---
 
+## Status: archived
+
+EC 441 finished on May 4, 2026. This repository is the archive of the Spring
+2026 course materials, and it will not be updated.
+
+The lecture notes, slides and Python scripts listed below are the versions we
+used in class that semester. You are welcome to keep using them.
+
+Note: the scripts were written for the Python and library versions available in
+early 2026, so some of them may need small changes to run today.
+
+---
+
 ## Course Materials
 
 This repository contains lecture notes, slides, and Python scripts for EC 441.
